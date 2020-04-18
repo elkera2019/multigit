@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "624673715763",
+    "firebase_url": "https://mensajero-c63e6.firebaseio.com",
+    "project_id": "mensajero-c63e6",
+    "storage_bucket": "mensajero-c63e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624673715763:android:66e71fb0382524f25b1546",
+        "android_client_info": {
+          "package_name": "com.companyname.multi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624673715763-93nhvm53or80shb0l08ru82teivcv2ld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpf6uGNaOIybYTTBrcU75D13reSuV36ZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624673715763-93nhvm53or80shb0l08ru82teivcv2ld.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

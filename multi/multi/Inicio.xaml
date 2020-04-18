@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="multi.Inicio">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Label Text="Mi pagina de inicio"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button
+            Text="Comprobar"
+            Clicked="Conexion"
+            TextColor="White"
+            BorderColor="White"
+            CornerRadius="30"
+            BackgroundColor="DarkBlue"
+            WidthRequest="300"
+          
+             />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>-->
+
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"  
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
+             xmlns:local="clr-namespace:multi"  
+             x:Class="multi.Inicio" Title="I am master" MasterBehavior="Popover" BackgroundColor="Cyan">
+
+    <MasterDetailPage.Master>
+        <ContentPage Padding="10" BackgroundColor="White" Title="Master">
+            <ContentPage.Content>
+                <StackLayout Margin="5,30,5,5">
+                    <Label Text="Menu"></Label>
+                    <Button Text="Add Employee" TextColor="White" CornerRadius="30" BackgroundColor="Blue" Clicked="Button_Clicked"></Button>
+                    <Button Text="List Employee" TextColor="White" CornerRadius="30" BackgroundColor="Blue" Clicked="Button_Clicked2"></Button>
+                    <Button Text="About Us" TextColor="White" CornerRadius="30" BackgroundColor="Blue" Clicked="Button_Clicked3"></Button>
+                    <Button Text="Contact" TextColor="White" CornerRadius="30" BackgroundColor="Blue" Clicked="Button_Clickded4"></Button>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    
+    <MasterDetailPage.Detail>
+        <ContentPage Padding="10" >
+            <ContentPage.Content>
+                <StackLayout Margin="5,30,5,5">
+                    <!--<Label Text="Pagina detalles Ramces"></Label>-->
+                    <!--<Image 
+                        Source="Fondo" 
+                        HorizontalOptions="FillAndExpand" 
+                        VerticalOptions="FillAndExpand">
+                    </Image>-->
+
+                    <Image
+            Source="Fondo"
+            WidthRequest="{OnPlatform iOS=300, Android=300}"
+           HorizontalOptions="FillAndExpand"
+           VerticalOptions="FillAndExpand"
+            />
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+    
+</MasterDetailPage>  
+   

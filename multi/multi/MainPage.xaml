@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:multi"
+             x:Class="multi.MainPage">
+
+    <StackLayout Margin="20">
+        <!-- Place new controls here -->
+        <!--<Label Text="Welcome to Xamarin.Forms Ramces!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />-->
+        <Image
+            Source="login1"
+       WidthRequest="{OnPlatform iOS=300, Android=250}"
+            />
+        <Entry
+            Placeholder="Escriba Usuario"
+            PlaceholderColor="Black"
+            TextColor="Black"
+            x:Name="txtusuario"
+            />
+        <Entry
+            Placeholder="Escriba contraseña"
+            PlaceholderColor="Black"
+            TextColor="Black"
+            IsPassword="True"
+            x:Name="txtcontraseña"/>
+        <Button
+            Text="Ingresar"
+            Clicked="Probando"
+            TextColor="White"
+            BorderColor="White"
+            CornerRadius="30"
+            BackgroundColor="Green"
+            WidthRequest="300"/>
+    </StackLayout>
+
+</ContentPage>
